@@ -1,0 +1,87 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+DROP SCHEMA IF EXISTS `mydb` ;
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
+SHOW WARNINGS;
+USE `mydb` ;
+
+-- -----------------------------------------------------
+-- Table `comunidade`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `comunidade` ;
+
+SHOW WARNINGS;
+CREATE TABLE IF NOT EXISTS `comunidade` (
+  `cod_com` INT NOT NULL,
+  `con_com` VARCHAR(500) NULL,
+  `cog_com` VARCHAR(45) NULL,
+  `comunidadecol` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`cod_com`, `comunidadecol`))
+ENGINE = InnoDB;
+
+SHOW WARNINGS;
+
+-- -----------------------------------------------------
+-- Table `localizador`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `localizador` ;
+
+SHOW WARNINGS;
+CREATE TABLE IF NOT EXISTS `localizador` (
+  `cod_loc` INT NOT NULL,
+  `bus_loc` VARCHAR(50) NOT NULL,
+  `lis_loc` VARCHAR(50) NOT NULL,
+  `localizadorcol` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`cod_loc`))
+ENGINE = InnoDB;
+
+SHOW WARNINGS;
+
+-- -----------------------------------------------------
+-- Table `login`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `login` ;
+
+SHOW WARNINGS;
+CREATE TABLE IF NOT EXISTS `login` (
+  `log_log` INT NOT NULL,
+  `sen_log` VARCHAR(10) NOT NULL,
+  PRIMARY KEY (`log_log`))
+ENGINE = InnoDB;
+
+SHOW WARNINGS;
+
+-- -----------------------------------------------------
+-- Table `usuario`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `usuario` ;
+
+SHOW WARNINGS;
+CREATE TABLE IF NOT EXISTS `usuario` (
+  `cod_usu` INT NOT NULL,
+  `nom_usu` VARCHAR(50) NOT NULL,
+  `ema_usu` VARCHAR(70) NOT NULL,
+  `sen_usu` VARCHAR(20) NOT NULL,
+  `cpf_usu` BIGINT(11) NOT NULL,
+  `cep_usu` BIGINT(8) NOT NULL,
+  `num_usu` VARCHAR(6) NOT NULL,
+  PRIMARY KEY (`cod_usu`))
+ENGINE = InnoDB;
+
+SHOW WARNINGS;
+CREATE UNIQUE INDEX `cpf_usu_UNIQUE` ON `usuario` (`cpf_usu` ASC) VISIBLE;
+
+SHOW WARNINGS;
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
