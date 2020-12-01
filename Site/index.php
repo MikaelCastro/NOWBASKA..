@@ -52,12 +52,12 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="SobreNós.php"><h6><FONT COLOR="white">SOBRE NÓS</FONT></h4></a>
+            <a class="nav-link" href="SobreNos.php"><h6><FONT COLOR="white">SOBRE NÓS</FONT></h4></a>
           </li>
        <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="Contato.php"><h6><FONT COLOR="white">ENTRE EM CONTATO</FONT></h4></a>
+            <a class="nav-link" href="contato/index.php"><h6><FONT COLOR="white">ENTRE EM CONTATO</FONT></h4></a>
           </li>
 
           
@@ -105,7 +105,7 @@
                         <div class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">Aproveite as notícias</div>
                       </div>
                       <div class="col-xl-8 offset-top-10">
-                        <h5 class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">Faça novas amizades conversando com outros usuários.</h5>
+                        <h5 class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">Fique por dentro das principais noticías do mundo do basquete.</h5>
                         <div class="offset-top-20 offset-sm-top-50"><a class="btn btn-danger btn-anis-effect" href="Noticias.php" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800"><span class="btn-text">Vamos lá</span></a></div>
                       </div>
                     </div>
@@ -123,7 +123,7 @@
                       </div>
                       <div class="col-xl-8 offset-top-10">
                         <h5 class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">Conheça um pouco mais sobre o site e sua proposta.</h5>
-                        <div class="offset-top-20 offset-sm-top-50"><a class="btn btn-danger btn-anis-effect" href="SobreNos.php" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800"><span class="btn-text">Vamos lá</span></a></div>
+                        <div class="offset-top-20 offset-sm-top-50"><a class="btn btn-danger btn-anis-effect" href="SobreNós.php" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800"><span class="btn-text">Vamos lá</span></a></div>
                       </div>
                     </div>
                   </div>
@@ -204,7 +204,7 @@
                 <div>
                   <h4 class="thumbnail-terry-title">Passes</h4>
                 </div>
-                <p class="thumbnail-terry-desc offset-top-0"></p><a class="btn offset-top-10 offset-lg-top-0 btn-danger" href="#">Vamos lá</a>
+                <p class="thumbnail-terry-desc offset-top-0"></p><a class="btn offset-top-10 offset-lg-top-0 btn-danger" href="https://www.youtube.com/channel/UC6aaeX2BVCnSZE7AH7Mzk_w">Vamos lá</a>
               </figcaption>
             </figure>
           </div>
@@ -215,7 +215,7 @@
                 <div>
                   <h4 class="thumbnail-terry-title">Defesa</h4>
                 </div>
-                <p class="thumbnail-terry-desc offset-top-0"></p><a class="btn offset-top-10 offset-lg-top-0 btn-danger" href="#">Vamos lá</a>
+                <p class="thumbnail-terry-desc offset-top-0"></p><a class="btn offset-top-10 offset-lg-top-0 btn-danger" href="https://www.youtube.com/channel/UC6aaeX2BVCnSZE7AH7Mzk_w">Vamos lá</a>
               </figcaption>
             </figure>
           </div>

@@ -53,12 +53,12 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="SobreNós.php"><h6><FONT COLOR="white">SOBRE NÓS</FONT></h4></a>
+            <a class="nav-link" href="SobreNos.php"><h6><FONT COLOR="white">SOBRE NÓS</FONT></h4></a>
           </li>
        <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="Contato.php"><h6><FONT COLOR="white">ENTRE EM CONTATO</FONT></h4></a>
+            <a class="nav-link" href="contato/index.php"><h6><FONT COLOR="white">ENTRE EM CONTATO</FONT></h4></a>
           </li>
 
           <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -130,6 +130,29 @@ Segundo a publicação, a equipe da Califórnia está trocando o pivô JaVale Mc
               
             </div>
           </div>
+
+           <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark novi-background" data-preset='{"title":"Footer","category":"footer","reload":true,"id":"footer"}'>
+        <div class="container">
+          <div class="row justify-content-md-center text-xl-left">
+            <div class="col-md-12">
+              <div class="row justify-content-sm-center">
+                <div class="col-sm-10 col-md-3 text-left order-md-4 col-md-10 col-xl-3 offset-md-top-50 offset-xl-top-0 order-xl-2">
+                 
+                  <p class="text-uppercase text-spacing-60 font-weight-bold text-center text-xl-left"><center>Copyright NowBaska©2020</center></p>
+                 
+                  </div>
+                </div>
+                <div class="col-sm-10 col-md-3 offset-top-66 order-md-3 col-md-10 col-xl-2 offset-xl-top-0 order-xl-3">
+                
+                  
+               
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
          
 
     

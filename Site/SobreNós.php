@@ -57,7 +57,7 @@
        <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="Contato.php"><h6><FONT COLOR="white">ENTRE EM CONTATO</FONT></h4></a>
+            <a class="nav-link" href="contato/index.php"><h6><FONT COLOR="white">ENTRE EM CONTATO</FONT></h4></a>
           </li>
 
           <div class="collapse navbar-collapse" id="navbarResponsive">

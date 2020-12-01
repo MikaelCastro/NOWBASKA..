@@ -32,7 +32,7 @@
 
 
 
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="../index.php"><h6><FONT COLOR="white">PÁGINA PRINCIPAL</FONT></h4></a>
@@ -52,12 +52,12 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../SobreNós.php"><h6><FONT COLOR="white">SOBRE NÓS</FONT></h4></a>
+            <a class="nav-link" href="../SobreNos.php"><h6><FONT COLOR="white">SOBRE NÓS</FONT></h4></a>
           </li>
        <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../Contato.php"><h6><FONT COLOR="white">ENTRE EM CONTATO</FONT></h4></a>
+            <a class="nav-link" href="../contato/index.php"><h6><FONT COLOR="white">ENTRE EM CONTATO</FONT></h4></a>
           </li>
 
           <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -65,7 +65,6 @@
           <li class="nav-item">
             <a class="nav-link" href="../login/index.php"><h6><FONT COLOR="white">LOGIN</FONT></h4></a>
           </li>
-
 
           
         </ul>
