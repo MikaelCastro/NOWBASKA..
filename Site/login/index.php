@@ -106,9 +106,9 @@ session_start();
                                 </div>
                             </div>
                             <div class="field">
-                              <button type="submit" class="button is-block is-link is-large is-fullwidth"> <a href="cadastro.php">Cadastrar</a></button>
+                              <center><button type="submit" class="button is-block is-link is-large is-fullwidth"> <a href="cadastro.php"><FONT color = "white">Cadastrar</FONT></a></button></center>
                               
-                           <p> <button type="submit" class="button is-block is-link is-large is-fullwidth"><a href="../index.php">Entrar</button></p>
+                           <p><center> <button type="submit" class="button is-block is-link is-large is-fullwidth"><a href="../index.php"><FONT color = "white">Entrar</FONT></button></center></p>
                         </form>
                     </div>
                 </div>
